@@ -6,10 +6,9 @@ metadata:
     name: result-service
     app: voting-app-cluster
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 80
-    nodePort: 30006
     targetPort: 80
   selector:
     name: result-service
