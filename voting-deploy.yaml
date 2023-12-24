@@ -15,7 +15,7 @@ spec:
     spec:
       containers: 
         - name: voting-image
-          image: kodekloud/examplevotingapp_voting:v1
+          image: kodekloud/examplevotingapp_vote:v1
           ports:
             - containerPort: 80
   replicas: 1
